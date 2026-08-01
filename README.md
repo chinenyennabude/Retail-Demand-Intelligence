@@ -54,6 +54,23 @@ Retail-Demand-Intelligence/
 ├── README.md
 └── .gitignore
 ```
+Workflow
+
+Raw CSV files
+      ↓
+SQL Server staging tables
+      ↓
+Cleaned and transformed SQL tables/views
+      ↓
+Power BI semantic model
+      ↓
+Historical analysis
+      ↓
+Python forecasting model
+      ↓
+Forecast results returned to SQL
+      ↓
+Power BI forecast and scenario dashboard
 
 **Tools**
 
